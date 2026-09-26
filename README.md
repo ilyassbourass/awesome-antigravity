@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/images/banner.svg" alt="Awesome Google Antigravity Hero Banner" width="100%">
+</p>
+
 # Awesome Google Antigravity [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of awesome tools, skills, extensions, workflows, and resources for **Google Antigravity (AGY)** — Google DeepMind's agentic AI coding environment.

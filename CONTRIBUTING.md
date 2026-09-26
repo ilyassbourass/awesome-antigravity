@@ -1,20 +1,28 @@
 # Contributing to Awesome Google Antigravity
 
-Thank you for contributing to **Awesome Google Antigravity**!
+Thank you for considering a contribution to **Awesome Google Antigravity**! 
 
-### Guidelines
+We welcome submissions of new tools, skills, slash command extensions, MCP servers, and resources for Google Antigravity.
 
-1. **Quality over Quantity**: Suggest tools, skills, or resources that are actively maintained and solve real problems.
-2. **Formatting**: Ensure your entry follows the standard list item syntax:
-   `- **[Project Name](url)** — Concise 1-2 sentence description explaining what it is and why it's useful.`
-3. **No Self-Serving Spam**: Submissions should have clear value for the Antigravity community.
-4. **Alphabetical Order**: Place entries in alphabetical order within their respective sections where applicable.
+---
 
-### Submitting a PR
+## Guidelines for Inclusion
 
-1. Fork this repository.
-2. Create your branch (`git checkout -b add/my-awesome-tool`).
-3. Add your entry to `README.md`.
-4. Commit your changes (`git commit -m 'Add My Awesome Tool'`).
-5. Push to the branch (`git push origin add/my-awesome-tool`).
-6. Open a Pull Request.
+1. **Relevance**: Tools and resources must specifically target Google Antigravity (AGY), Gemini agentic coding workflows, or related agent infrastructure.
+2. **Quality & Maintenance**: Repositories should have a clear README, active development, and proper open-source licensing.
+3. **Format**: Follow the existing list format:
+   ```markdown
+   - **[Project Name](https://github.com/user/project)** — Concise, objective 1-2 sentence description explaining what it solves and why it matters.
+   ```
+4. **Alphabetical / Categorized**: Place your entry in the most relevant section.
+5. **No Affiliate Links**: Pure open-source and developer resources only.
+
+---
+
+## Submission Process
+
+1. Fork the repository.
+2. Create a new branch: `git checkout -b add-my-awesome-tool`.
+3. Add your project to `README.md`.
+4. Commit your changes: `git commit -m "feat(ecosystem): add MyTool to developer tools"`.
+5. Push to your branch and open a Pull Request!

@@ -1,0 +1,42 @@
+name: 🌟 Suggest a Tool or Resource
+description: Submit a new tool, skill, or resource to Awesome Google Antigravity
+title: "[Add]: "
+labels: ["addition"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping grow the Awesome Google Antigravity directory!
+  - type: input
+    id: name
+    attributes:
+      label: Project Name
+      placeholder: Antigravity Extension XYZ
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Repository or Resource URL
+      placeholder: https://github.com/username/project
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Target Section
+      options:
+        - "Essential Developer Tools"
+        - "Skills & Customizations"
+        - "Workflow Automation & Hooks"
+        - "Architecture & Storage Internals"
+        - "Community & Discussions"
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: One-Sentence Description
+      description: Concise summary following the list guidelines.
+    validations:
+      required: true
