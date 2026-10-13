@@ -63,6 +63,7 @@ Quick shortcuts available directly in the Antigravity prompt bar:
 - **Subagent Delegation (`invoke_subagent`)** — Launch background worker subagents (`research`, `self`, or custom-defined agents) with isolated or shared workspaces.
 - **Reactive Wakeups** — Antigravity agents automatically wake up upon task completion or subagent messages, eliminating wasteful polling loops.
 - **Background Task Management** — Monitor long-running dev servers, test runners, and compilation pipelines via `manage_task`.
+- **[Ultragravity](https://github.com/ibsorn/ultragravity)** — Plugin built on the PreInvocation, PostToolUse and Stop hooks: routes each prompt to the right discipline and blocks "done" on deep tasks until a verification was observed to run.
 
 ---
 
