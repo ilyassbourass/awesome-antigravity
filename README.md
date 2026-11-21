@@ -27,6 +27,7 @@
 - **[Antigravity Rewind](https://github.com/ilyassbourass/antigravity-rewind)** — The surgical time machine, in-chat undo engine, and conversation manager for Google Antigravity. Safely roll back turns, purge context-polluting refusal blocks (*"I cannot assist with that"*), fix runaway thinking loops, create lossless SQLite snapshots, and restart Antigravity with 1-click. Available as a zero-install Windows binary (`.exe`).
 - **[Antigravity CLI (`agy`)](https://antigravity.google)** — The official command-line interface for running Antigravity sessions in headless environments, CI pipelines, and automated script runners.
 - **[Freebuff Baseline Windows](https://github.com/ilyassbourass/freebuff-baseline-windows)** — Optimized compatibility runtime for running agentic developer tools on older Windows x64 CPUs lacking AVX2 instructions.
+- **[Chat Tokens & Context Monitor](https://github.com/vladsboev-web/chat_tokens)** — Zero-dependency Antigravity 2.0 plugin combining a live Sidecar Context Monitor side panel (thresholds, compaction detection, one-click `HANDOFF.md` prompt) and an instant 0-token `/ctx` / `/чат` `PreInvocation` hook reading local `transcript.jsonl`.
 
 ---
 
